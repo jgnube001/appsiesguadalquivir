@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Login",
+    "pageId": "Alumnos",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Login_CogerDatosHoja",
+  "id": "Alumnos_CogerDatosHoja",
   "deleted": false,
   "gitSyncId": "63dd87debdc1fb34f6f614d9_63dd8ab5bdc1fb34f6f614f2"
 }
