@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  if (CompruebaAutorizados.data.values.some(e => e === email_logueado.text)) return \"logedin\"; else return \"notlogedin\";\n}",
+      "body": "() => {\n  if (CompruebaAutorizados.data.values.some(email_logueado.text)) return \"logedin\"; else return \"notlogedin\";\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -35,7 +35,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  if (CompruebaAutorizados.data.values.some(e => e === email_logueado.text)) return \"logedin\"; else return \"notlogedin\";\n}"
+      "() => {\n  if (CompruebaAutorizados.data.values.some(email_logueado.text)) return \"logedin\"; else return \"notlogedin\";\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
