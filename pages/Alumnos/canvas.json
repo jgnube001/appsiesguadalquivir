@@ -1204,6 +1204,14 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Alumnos_ConsultaAlumnos",
+              "name": "ConsultaAlumnos",
+              "confirmBeforeExecute": false,
+              "pluginType": "SAAS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Alumnos_ConsultaAutorizados",
               "name": "ConsultaAutorizados",
               "confirmBeforeExecute": false,
@@ -1214,15 +1222,13 @@
           ],
           [
             {
-              "id": "Alumnos_ConsultaAlumnos",
-              "name": "ConsultaAlumnos",
+              "id": "Alumnos_CompruebaAutorizados",
+              "name": "CompruebaAutorizados",
               "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
+              "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Alumnos_oauth_continue",
               "name": "oauth_continue",

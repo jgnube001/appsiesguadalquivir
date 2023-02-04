@@ -3,8 +3,7 @@ export default {
 	myVar2: {},
 	autorizado: () => {
 		//write code here
-		if(ConsultaAutorizados.data.some(e => e.email === email_logueado.text))
-			//Table1Copy.tableData = ConsultaTelefonos01.data;
+		if(CompruebaAutorizados.data.some(e => e.email === email_logueado.text))
 			return "logedin";
 		else
 			return "notlogedin";
