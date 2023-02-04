@@ -35,7 +35,7 @@
           "value": "true"
         }
       ],
-      "body": "{\n  \"range\": \"PartesPositivos\",\n  \"majorDimension\": \"ROWS\",\n  \"values\": [\n    [\n      \"{{ModalFechaParte.formattedDate}}\",\n      \"{{txtModalNombre.text}}\",\n      \"{{txtModalGrupo.text}}\",\n      \"{{oauth_continue.data.name}}\",\n      \"{{Date()}}\"\n    ]\n  ]\n}",
+      "body": "{\n  \"range\": \"PartesPositivos\",\n  \"majorDimension\": \"ROWS\",\n  \"values\": [\n    [\n      \"{{ModalFechaParte.formattedDate}}\",\n      \"{{txtModalNombre.text}}\",\n      \"{{txtModalGrupo.text}}\",\n      \"{{oauth_continue.data.name}}\",\n\t\t\t\"{{ModalDescripcion.text}}\",\n      \"{{Date()}}\"\n    ]\n  ]\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -59,6 +59,7 @@
     "messages": [],
     "jsonPathKeys": [
       "Date()",
+      "ModalDescripcion.text",
       "ModalFechaParte.formattedDate",
       "oauth_continue.data.name",
       "txtModalGrupo.text",
