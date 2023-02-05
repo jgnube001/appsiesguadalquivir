@@ -3,7 +3,7 @@ export default {
 	myVar2: {},
 	autorizado: () => {
 		//write code here
-		if(CompruebaAutorizados.data.some(e => e === email_logueado.text))
+		if(CompruebaAutorizados.data.some(e => e[0] === email_logueado.text))
 			return "logedin";
 		else
 			return "notlogedin";
