@@ -1137,14 +1137,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Alumnos_CompruebaAutorizados",
-              "name": "CompruebaAutorizados",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Alumnos_oauth_continue",
               "name": "oauth_continue",
               "confirmBeforeExecute": false,
@@ -1159,6 +1151,14 @@
             {
               "id": "Alumnos_CogerDatosHoja",
               "name": "CogerDatosHoja",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Alumnos_CompruebaAutorizados",
+              "name": "CompruebaAutorizados",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
