@@ -17,8 +17,13 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/Alumnos",
-      "headers": [],
+      "path": "/v4/spreadsheets/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/values/Alumnos!A1:F500",
+      "headers": [
+        {
+          "key": "content-type",
+          "value": "application/json"
+        }
+      ],
       "encodeParamsToggle": true,
       "queryParameters": [],
       "bodyFormData": [],
@@ -30,7 +35,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": true,
