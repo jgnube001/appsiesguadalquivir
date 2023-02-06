@@ -193,7 +193,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Nuevo parte positivo.",
+                      "text": "Nuevo parte positivo:",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
                       "rightColumn": 58,
@@ -360,7 +360,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 8,
-                      "fontSize": "1rem",
+                      "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
                     {
@@ -633,10 +633,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 53,
+              "originalTopRow": 15,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 57,
+              "originalBottomRow": 19,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -976,7 +976,7 @@
                       "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 8,
+                      "originalBottomRow": 9,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1121,7 +1121,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 53,
+              "originalBottomRow": 15,
               "minDynamicHeight": 15
             }
           ]
