@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -128,7 +128,7 @@
                       "boxShadow": "none",
                       "widgetName": "IconButton1",
                       "onClick": "{{closeModal('Modal1')}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#550101",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
                       "searchTags": [
@@ -140,11 +140,9 @@
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
+                      "dynamicTriggerPathList": [],
                       "leftColumn": 58,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -219,7 +217,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{closeModal('Modal1')}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#550101",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -234,9 +232,6 @@
                       "dynamicTriggerPathList": [],
                       "leftColumn": 3,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -267,7 +262,7 @@
                       "boxShadow": "none",
                       "widgetName": "Button2",
                       "onClick": "{{GuardaParte.run(() => navigateTo('Parte Creado', {}, 'SAME_WINDOW'), () => showAlert('Error al crear el parte.'))}}",
-                      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "buttonColor": "#550101",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -286,9 +281,6 @@
                       ],
                       "leftColumn": 43,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "buttonColor"
-                        },
                         {
                           "key": "borderRadius"
                         }
@@ -600,8 +592,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 53,
-              "bottomRow": 57,
+              "topRow": 15,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -641,10 +633,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 15,
+              "originalTopRow": 53,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
+              "originalBottomRow": 57,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -661,7 +653,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 0,
-              "bottomRow": 53,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -689,14 +681,14 @@
                   "tabId": "tab1",
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 530,
+                  "bottomRow": 150,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 530,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -921,14 +913,14 @@
                   "tabId": "tab2",
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
-                  "bottomRow": 530,
+                  "bottomRow": 150,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 530,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -944,7 +936,7 @@
                         "label"
                       ],
                       "topRow": 4,
-                      "bottomRow": 8,
+                      "bottomRow": 9,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -984,7 +976,7 @@
                       "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 8,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1007,12 +999,12 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 1,
-                  "bottomRow": 530,
+                  "bottomRow": 150,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 530,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -1129,7 +1121,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 15,
+              "originalBottomRow": 53,
               "minDynamicHeight": 15
             }
           ]
